@@ -1,0 +1,13 @@
+#resume {
+  width: 90%;
+  margin: 0 auto; }
+  #resume h1 {
+    text-align: center;
+    margin: 0; }
+  #resume .subtitle {
+    text-align: center;
+    margin: 0; }
+  #resume span {
+    float: right; }
+  #resume p {
+    margin-left: 2em; }

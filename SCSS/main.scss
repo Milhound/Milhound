@@ -1,0 +1,84 @@
+// --------- Variables --------- //
+$background: lighten(lightgrey, 10%);
+$highlight: #A6C93C;
+$blue: #126BFF;
+$lightblue: #558EFF;
+
+// --------- Global --------- //
+*{
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+a{
+	text-decoration: none;
+	color: $blue;
+}
+
+// --------- Nav --------- //
+header{
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+
+	#title{
+		text-transform: uppercase;
+		margin-right: auto;
+		font-size: 1.5em;
+	}
+	#nav{
+		text-transform: uppercase;
+
+		.nav-link{
+			margin: 0 1em;
+		}
+
+		#close{
+			display: none;
+		}
+	}
+}
+
+
+// --------- Footer --------- //
+footer{
+	width: 100%;
+	background-color: $background;
+	text-align: center;
+	margin-top: auto;
+
+	.copy{
+		line-height: 0;
+		margin: 2em 0;
+	}
+}
+
+// --------- Mobile --------- //
+@media screen and (max-width: 760px){
+	header{
+		flex-wrap: wrap;
+	}
+
+}
+
+// --------- Tablet --------- //
+@media screen and (min-width: 760px){
+
+	header{
+		flex-wrap: nowrap;
+	}
+}
+
+
+
+
+
