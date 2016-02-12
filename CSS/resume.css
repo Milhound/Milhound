@@ -11,3 +11,13 @@
     float: right; }
   #resume p {
     margin-left: 2em; }
+
+@media print {
+  header {
+    display: none !important; }
+
+  footer {
+    display: none !important; }
+
+  body {
+    padding: 2em 0; } }

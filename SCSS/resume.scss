@@ -18,3 +18,16 @@
 		margin-left: 2em;
 	}
 }
+
+// ---- Print ---- //
+@media print {
+	header {
+		display: none !important;
+	}
+	footer {
+		display: none !important;
+	}
+	body {
+		padding: 2em 0;
+	}
+}

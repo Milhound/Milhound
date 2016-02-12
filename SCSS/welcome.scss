@@ -3,10 +3,11 @@ $blue: #126BFF;
 $lightblue: #558EFF;
 
 // --------- Global --------- //
-
-.wrapper{
-	margin: .5em 0;
-}
+	#content{
+		hr{
+			width: 80%;
+		}
+	}
 
 // --------- Sidebar --------- //
 #sidebar{
@@ -31,6 +32,7 @@ $lightblue: #558EFF;
 
 // --------- Portfolio --------- //
 #portfolio{
+	padding-bottom: 1em;
 
 	h1{
 		text-align: center;
@@ -54,6 +56,16 @@ $lightblue: #558EFF;
 		border: 2px solid $blue;
 	}
 }
+// --------- Mobile:Small --------- //
+@media screen and (max-width: 650px){
+	#bio {
+		p{
+			margin-left: 0;
+			text-align: justify;
+		}
+	}
+}
+
 // --------- Mobile --------- //
 @media screen and (max-width: 760px){
 
@@ -74,12 +86,18 @@ $lightblue: #558EFF;
 			margin: 1em .7em;
 		}
 	}
+	#bio{
+		padding-left: 1em;
+	}
 
 	#portfolio{
+		padding-left: 1em;
+
 		.item{
 			width: 100%;
+
 			img{
-				width: 40%;
+				width: 60%;
 				margin: 0 auto;
 			}
 		}
@@ -93,6 +111,7 @@ $lightblue: #558EFF;
 	.wrapper{
 		display: flex;
 		flex-wrap: nowrap;
+		border-top: 1px solid black;
 	}
 
 
@@ -103,6 +122,8 @@ $lightblue: #558EFF;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		border-right: 1px solid black;
+		padding-top: 1em;
 
 		img{
 			width: 10em;
@@ -110,7 +131,7 @@ $lightblue: #558EFF;
 		}
 
 		h1,h2,h3,h4,h5,h6{
-			margin: 1em 0;
+			margin: .5em 0;
 		}
 		a{
 			margin: .25em 0;
@@ -122,6 +143,7 @@ $lightblue: #558EFF;
 		flex: 1 1 auto;
 		display: flex;
 		flex-direction: column;
+		padding-left: 1em;
 	}
 
 	#portfolio{

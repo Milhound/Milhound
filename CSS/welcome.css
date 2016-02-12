@@ -1,5 +1,5 @@
-.wrapper {
-  margin: .5em 0; }
+#content hr {
+  width: 80%; }
 
 #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5, #sidebar h6 {
   width: 100%;
@@ -13,20 +13,26 @@
   #bio p {
     margin: 0 1.3em; }
 
-#portfolio h1 {
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0; }
-#portfolio h2 {
-  margin: .25em 0; }
-#portfolio li {
-  list-style-type: none; }
-#portfolio .item {
-  text-align: center; }
-#portfolio img {
-  border-radius: .35em;
-  border: 2px solid #126BFF; }
+#portfolio {
+  padding-bottom: 1em; }
+  #portfolio h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0; }
+  #portfolio h2 {
+    margin: .25em 0; }
+  #portfolio li {
+    list-style-type: none; }
+  #portfolio .item {
+    text-align: center; }
+  #portfolio img {
+    border-radius: .35em;
+    border: 2px solid #126BFF; }
 
+@media screen and (max-width: 650px) {
+  #bio p {
+    margin-left: 0;
+    text-align: justify; } }
 @media screen and (max-width: 760px) {
   #sidebar {
     display: flex;
@@ -39,34 +45,43 @@
     #sidebar a {
       margin: 1em .7em; }
 
-  #portfolio .item {
-    width: 100%; }
-    #portfolio .item img {
-      width: 40%;
-      margin: 0 auto; } }
+  #bio {
+    padding-left: 1em; }
+
+  #portfolio {
+    padding-left: 1em; }
+    #portfolio .item {
+      width: 100%; }
+      #portfolio .item img {
+        width: 60%;
+        margin: 0 auto; } }
 @media screen and (min-width: 760px) {
   .wrapper {
     display: flex;
-    flex-wrap: nowrap; }
+    flex-wrap: nowrap;
+    border-top: 1px solid black; }
 
   #sidebar {
     width: 100em;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    border-right: 1px solid black;
+    padding-top: 1em; }
     #sidebar img {
       width: 10em;
       border-radius: .35em; }
     #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5, #sidebar h6 {
-      margin: 1em 0; }
+      margin: .5em 0; }
     #sidebar a {
       margin: .25em 0; }
 
   #content {
     flex: 1 1 auto;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding-left: 1em; }
 
   #portfolio .rails, #portfolio .php, #portfolio .python, #portfolio .java {
     display: flex;

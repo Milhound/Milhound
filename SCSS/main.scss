@@ -12,13 +12,17 @@ $lightblue: #558EFF;
 body{
 	display: flex;
 	flex-direction: column;
-
+	font-family: 'Roboto', sans-serif;
 }
 
 
 a{
 	text-decoration: none;
 	color: $blue;
+}
+
+a:hover{
+	color: $lightblue;
 }
 
 // --------- Nav --------- //
@@ -54,7 +58,6 @@ footer{
 	width: 100%;
 	background-color: $background;
 	text-align: center;
-	margin-top: auto;
 
 	.copy{
 		line-height: 0;
@@ -62,12 +65,25 @@ footer{
 	}
 }
 
-// --------- Mobile --------- //
-@media screen and (max-width: 760px){
+// --------- Mobile:Small --------- //
+@media screen and (max-width: 650px){
 	header{
 		flex-wrap: wrap;
+		margin-bottom: 1em;
 	}
 
+	#title{
+		margin-right: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+
+// --------- Mobile --------- //
+@media screen and (max-width: 760px){
+	
 }
 
 // --------- Tablet --------- //
