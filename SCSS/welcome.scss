@@ -5,7 +5,10 @@ $lightblue: #558EFF;
 // --------- Global --------- //
 	#content{
 		hr{
+			height: 1px;
 			width: 80%;
+			background-color: $blue;
+			border: none;
 		}
 	}
 
