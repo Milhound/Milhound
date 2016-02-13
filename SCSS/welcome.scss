@@ -58,6 +58,10 @@ $lightblue: #558EFF;
 		border-radius: .35em;
 		border: 2px solid $blue;
 	}
+
+	img:hover{
+		box-shadow: 0 0 5px $lightblue;
+	}
 }
 // --------- Mobile:Small --------- //
 @media screen and (max-width: 650px){
@@ -150,11 +154,16 @@ $lightblue: #558EFF;
 
 	#portfolio{
 		
+		h1{
+			text-decoration: underline;
+		}
+
 		.rails,.php,.python,.java{
 			display:flex;
 			flex-wrap: wrap;
 			justify-content: center;
 		}
+		
 		.item{
 			img{
 				height: 15em;

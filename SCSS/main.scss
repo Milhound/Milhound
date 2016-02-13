@@ -33,7 +33,7 @@ header{
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 5%;
-	border-bottom: 1px solid black;
+
 
 	#title{
 		text-transform: uppercase;
@@ -93,6 +93,7 @@ footer{
 
 	header{
 		flex-wrap: nowrap;
+		border-bottom: 1px solid black;
 	}
 }
 
