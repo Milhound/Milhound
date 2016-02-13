@@ -61,8 +61,7 @@
 @media screen and (min-width: 760px) {
   .wrapper {
     display: flex;
-    flex-wrap: nowrap;
-    border-top: 1px solid black; }
+    flex-wrap: nowrap; }
 
   #sidebar {
     width: 100em;

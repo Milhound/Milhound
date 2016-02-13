@@ -30,15 +30,17 @@ header{
 	display: flex !important;
 	align-items: center;
 	justify-content: center;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 5%;
+	border-bottom: 1px solid black;
 
 	#title{
 		text-transform: uppercase;
 		margin-right: auto;
 		font-size: 1.5em;
 	}
+
 	#nav{
 		text-transform: uppercase;
 
