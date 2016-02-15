@@ -95,6 +95,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Images\/Milhound.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402170,
+		"inputAbbreviatedPath": "\/Images\/Milhound.png",
+		"outputAbbreviatedPath": "\/Images\/Milhound.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/MTG.png": {
 		"fileType": 32768,
 		"ignore": 0,
