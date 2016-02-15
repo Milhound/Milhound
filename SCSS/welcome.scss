@@ -1,6 +1,7 @@
 // --------- Variables --------- //
 $blue: #126BFF;
 $lightblue: #558EFF;
+$background: lighten(lightgrey, 10%);
 
 // --------- Global --------- //
 	#content{
@@ -151,7 +152,6 @@ $lightblue: #558EFF;
 			margin: .25em 0;
 			font-size: .8em;
 		}
-
 
 		.social{
 
