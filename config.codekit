@@ -33,20 +33,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 285175,
+		"initialSize": 98143,
 		"inputAbbreviatedPath": "\/Images\/Bear.jpg",
 		"outputAbbreviatedPath": "\/Images\/Bear.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/Code.png": {
-		"fileType": 32768,
+	"\/Images\/Code.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 295189,
-		"inputAbbreviatedPath": "\/Images\/Code.png",
-		"outputAbbreviatedPath": "\/Images\/Code.png",
+		"initialSize": 85064,
+		"inputAbbreviatedPath": "\/Images\/Code.jpg",
+		"outputAbbreviatedPath": "\/Images\/Code.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -55,75 +55,75 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 163504,
+		"initialSize": 65230,
 		"inputAbbreviatedPath": "\/Images\/Daniel.jpg",
 		"outputAbbreviatedPath": "\/Images\/Daniel.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/Gailwindslog.png": {
-		"fileType": 32768,
+	"\/Images\/Gailwindslog.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 634248,
-		"inputAbbreviatedPath": "\/Images\/Gailwindslog.png",
-		"outputAbbreviatedPath": "\/Images\/Gailwindslog.png",
+		"initialSize": 74704,
+		"inputAbbreviatedPath": "\/Images\/Gailwindslog.jpg",
+		"outputAbbreviatedPath": "\/Images\/Gailwindslog.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/Logistics.png": {
-		"fileType": 32768,
+	"\/Images\/Logistics.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 266508,
-		"inputAbbreviatedPath": "\/Images\/Logistics.png",
-		"outputAbbreviatedPath": "\/Images\/Logistics.png",
+		"initialSize": 100149,
+		"inputAbbreviatedPath": "\/Images\/Logistics.jpg",
+		"outputAbbreviatedPath": "\/Images\/Logistics.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/Lottery.png": {
-		"fileType": 32768,
+	"\/Images\/Lottery.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 150698,
-		"inputAbbreviatedPath": "\/Images\/Lottery.png",
-		"outputAbbreviatedPath": "\/Images\/Lottery.png",
+		"initialSize": 42340,
+		"inputAbbreviatedPath": "\/Images\/Lottery.jpg",
+		"outputAbbreviatedPath": "\/Images\/Lottery.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/Milhound.png": {
-		"fileType": 32768,
+	"\/Images\/Milhound.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 402170,
-		"inputAbbreviatedPath": "\/Images\/Milhound.png",
-		"outputAbbreviatedPath": "\/Images\/Milhound.png",
+		"initialSize": 67018,
+		"inputAbbreviatedPath": "\/Images\/Milhound.jpg",
+		"outputAbbreviatedPath": "\/Images\/Milhound.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/MTG.png": {
-		"fileType": 32768,
+	"\/Images\/MTG.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 286976,
-		"inputAbbreviatedPath": "\/Images\/MTG.png",
-		"outputAbbreviatedPath": "\/Images\/MTG.png",
+		"initialSize": 110615,
+		"inputAbbreviatedPath": "\/Images\/MTG.jpg",
+		"outputAbbreviatedPath": "\/Images\/MTG.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/Rails.png": {
-		"fileType": 32768,
+	"\/Images\/Rails.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 193150,
-		"inputAbbreviatedPath": "\/Images\/Rails.png",
-		"outputAbbreviatedPath": "\/Images\/Rails.png",
+		"initialSize": 43143,
+		"inputAbbreviatedPath": "\/Images\/Rails.jpg",
+		"outputAbbreviatedPath": "\/Images\/Rails.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -139,13 +139,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/Yodle.png": {
-		"fileType": 32768,
+	"\/Images\/Yodle.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 326181,
-		"inputAbbreviatedPath": "\/Images\/Yodle.png",
-		"outputAbbreviatedPath": "\/Images\/Yodle.png",
+		"initialSize": 127809,
+		"inputAbbreviatedPath": "\/Images\/Yodle.jpg",
+		"outputAbbreviatedPath": "\/Images\/Yodle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
