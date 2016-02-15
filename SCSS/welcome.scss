@@ -132,6 +132,7 @@ $background: lighten(lightgrey, 10%);
 
 	#sidebar{
 		width: 20em;
+		min-width: 175px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
