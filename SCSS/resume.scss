@@ -5,6 +5,9 @@
 		text-align: center;
 		margin: 0;
 	}
+	.bold{
+		font-weight: 700;
+	}
 
 	.subtitle{
 		text-align: center;
@@ -16,18 +19,5 @@
 
 	p{
 		margin-left: 2em;
-	}
-}
-
-// ---- Print ---- //
-@media print {
-	header {
-		display: none !important;
-	}
-	footer {
-		display: none !important;
-	}
-	body {
-		padding: 2em 0;
 	}
 }
