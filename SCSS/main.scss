@@ -64,20 +64,10 @@ footer{
 	background-color: $background;
 
 	.copy{
-		margin: 1em auto;
+		margin: 1em;
 	}
 }
-.social{
 
-	h4{
-		display: inline-block;
-		margin-right: 1em;
-	}
-
-	span{
-		margin-right: .5em;
-	}
-}
 
 // --------- Mobile:Small --------- //
 @media screen and (max-width: 650px){
