@@ -29,13 +29,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Images\/Bear.png": {
-		"fileType": 32768,
+	"\/Images\/Bear.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.0178e+06,
-		"inputAbbreviatedPath": "\/Images\/Bear.png",
-		"outputAbbreviatedPath": "\/Images\/Bear.png",
+		"initialSize": 285175,
+		"inputAbbreviatedPath": "\/Images\/Bear.jpg",
+		"outputAbbreviatedPath": "\/Images\/Bear.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -91,6 +91,17 @@
 		"initialSize": 150698,
 		"inputAbbreviatedPath": "\/Images\/Lottery.png",
 		"outputAbbreviatedPath": "\/Images\/Lottery.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/Milhound.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 383584,
+		"inputAbbreviatedPath": "\/Images\/Milhound.png",
+		"outputAbbreviatedPath": "\/Images\/Milhound.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
