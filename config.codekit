@@ -62,22 +62,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/Favicon 2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1484,
-		"inputAbbreviatedPath": "\/Images\/Favicon 2.png",
-		"outputAbbreviatedPath": "\/Images\/Favicon 2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/Images\/Favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7272,
+		"initialSize": 2192,
 		"inputAbbreviatedPath": "\/Images\/Favicon.png",
 		"outputAbbreviatedPath": "\/Images\/Favicon.png",
 		"outputPathIsOutsideProject": 0,
