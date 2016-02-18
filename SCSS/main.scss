@@ -62,14 +62,23 @@ header{
 // --------- Footer --------- //
 footer{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	background-color: $background;
 
 	.copy{
-		margin: 1em;
+		margin: .5em;
+
+		
+
 	}
+
+	.footer-link{
+		font-size: .8em;
+		}
+
 }
 
 

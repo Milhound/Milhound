@@ -281,6 +281,15 @@
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
+	"\/sitemap.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sitemap.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/TODO.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
