@@ -65,6 +65,7 @@ footer{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: auto;
 	width: 100%;
 	background-color: $background;
 
@@ -101,10 +102,6 @@ footer{
 // --------- Mobile --------- //
 @media screen and (max-width: 760px){
 	footer{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 
 		.copy{
 			margin: .5em 0;
