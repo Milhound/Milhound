@@ -38,6 +38,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Images\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14313,
+		"inputAbbreviatedPath": "\/Images\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/Images\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/Bear.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -353,9 +364,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "Milhound-Reboot",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_yellow"
+	"displayValue": "Milhound",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "\/Images\/Daniel.jpg"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
