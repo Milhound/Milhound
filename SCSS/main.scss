@@ -1,0 +1,152 @@
+@import "normalize";
+@import "icon";
+// --------- Variables --------- //
+$background: lighten(lightgrey, 10%);
+$highlight: #A6C93C;
+$blue: #126BFF;
+$lightblue: #558EFF;
+
+// --------- Global --------- //
+*{
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: $blue;
+}
+
+a:hover{ color: darken($blue, 20%); }
+// --------- Nav --------- //
+header{
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+
+	#title{
+		text-transform: uppercase;
+		margin-right: auto;
+		font-size: 1.5em;
+	}
+
+	#nav{
+		text-transform: uppercase;
+
+		.nav-link{
+			margin: 0 1em;
+		}
+
+		#close{
+			display: none;
+		}
+	}
+}
+// --------- Footer --------- //
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: auto;
+	width: 100%;
+	background-color: $background;
+
+	.copy{
+		margin: .5em;
+	}
+
+	.footer-link{
+		font-size: .8em;
+	}
+}
+// --------- Mobile:Small --------- //
+@media screen and (max-width: 650px){
+	header{
+		flex-wrap: wrap;
+		margin-bottom: 1em;
+	}
+
+	#title{
+		margin-right: 0;
+		width: 100%;
+		text-align: center;
+	}
+}
+// --------- Mobile --------- //
+@media screen and (max-width: 760px){
+	header{
+		#title{
+			margin-left: 1em;
+		}
+	}
+
+	footer{
+		.copy{
+			margin: .5em 0;
+		}
+		.social{
+			margin: 0;
+			margin-bottom: .5em;
+			h3{
+				display: none;
+			}	
+			button{
+				line-height: .5em;
+				padding: .4em;
+				border-radius: .3em;
+				border: 1px solid black;
+				background-color: $background;
+				margin: 0;
+			}
+			.socicon-facebook{
+				color: #314789;
+			}
+			.socicon-twitter{
+				color: #1D8DEE;
+			}
+			.socicon-googleplus{
+				color: #AD2A21;
+			}
+		}
+	}
+}
+// --------- Tablet --------- //
+@media screen and (min-width: 760px){
+
+	header{
+		flex-wrap: nowrap;
+		border-bottom: 1px solid black;
+		#title{
+			margin-left: 1em;
+		}
+	}
+
+	footer{
+		.social{
+			display: none;
+		}
+	}
+}
+// ---- Print ---- //
+@media print {
+	header {
+		display: none !important;
+	}
+
+	footer {
+		display: none !important;
+	}
+
+	body {
+		padding: 2em 0;
+	}
+}
