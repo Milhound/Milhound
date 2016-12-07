@@ -23,7 +23,13 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
   <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
   <?php
-    if (isset($dark) && $dark == true) echo '<link rel="stylesheet" href="/CSS/dark.css">'."\n";
+    if (isset($_SESSION["darkmode"])) {
+      $dark = $_SESSION["darkmode"];
+      if ($dark == true) echo '<link rel="stylesheet" href="/CSS/dark.css">'."\n";
+    } else {
+      $_SESSION["darkmode"] = false;
+    }
+    
     if (isset($css)) {
       echo '<link rel="stylesheet" href="/CSS/'. $css. '">'."\n";
     }

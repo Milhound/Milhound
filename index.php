@@ -4,7 +4,6 @@
 <?php
     $title = 'Daniel Milholland - Developer\'s Portfolio';
     $css = 'welcome.css';
-    $dark = $_SESSION["darkmode"];
     include('./Partials/head.php');
 ?>
 <body>
@@ -42,7 +41,7 @@
         <h4 class="subCategory">Operating Systems</h4>
         <ul class="subList">
             <li>Windows</li>
-            <li>>Mac OSX</li>
+            <li>Mac OSX</li>
             <li>Arch Linux</li>
             <li>Ubuntu</li>
             <li>Debian - Kali/Parrot</li>
@@ -67,7 +66,6 @@
         include('./Partials/portfolio.php');
         include('./Partials/footer.php');
     ?>
-    <script src="/JS/darkmode.min.js"></script>
 </body>
 </html>
 

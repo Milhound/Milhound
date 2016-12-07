@@ -6,7 +6,7 @@ const livereload = require('gulp-livereload')
 
 gulp.task('js', () => {
   gulp.src('./JS/src/*.js')
-    .pipe(uglify())
+    .pipe(uglify().on('error', err => { console.log(err) }))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('./JS'))
     .pipe(livereload())

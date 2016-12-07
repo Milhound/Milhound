@@ -30,3 +30,4 @@
       </button>
     </div>
   </footer>
+  <?php include('scripts.php') ?>
