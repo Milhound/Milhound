@@ -1,8 +1,10 @@
+<?php session_start(); ?>
 <!Doctype HTML>
 <html lang="en">
 <?php
     $title = 'Daniel Milholland - Developer\'s Portfolio';
     $css = 'welcome.css';
+    $dark = $_SESSION["darkmode"];
     include('./Partials/head.php');
 ?>
 <body>
@@ -22,20 +24,29 @@
         </p>
         <h4 class="subCategory">Languages</h4>
         <ul class="subList">
-            <li><a href="#">JavaScript</a> (ES 2016)</li>
-            <li><a href="#">Rust</a></li>
-            <li><a href="#">Ruby</a></li>
-            <li><a href="#">Python</a></li>
-            <li><a href="#">PHP</a></li>
+            <li>JavaScript - (ES 2016)</li>
+            <li>Rust</li>
+            <li>Ruby</li>
+            <li>Python</li>
+            <li>PHP</li>
         </ul>
         <h4 class="subCategory">Tools</h4>
         <ul class="subList">
-            <li><a href="#">NPM</a> - Node package manager</li>
-            <li><a href="#">Git</a> - Version control</li>
-            <li><a href="#">PIP</a> - Python package manager</li>
-            <li><a href="#">Gulp</a> - Script automation</li>
-            <li><a href="#">PM2</a> - Process manager for Linux</li>
-            <li><a href="#">RVM</a> - Ruby version manager</li>
+            <li><a href="https://www.npmjs.com/">NPM</a> - Node package manager</li>
+            <li><a href="https://git-scm.com/">Git</a> - Version control</li>
+            <li><a href="https://pypi.python.org/pypi/pip">PIP</a> - Python package manager</li>
+            <li><a href="http://gulpjs.com/">Gulp</a> - Script automation</li>
+            <li><a href="http://pm2.keymetrics.io/">PM2</a> - Node.js process manager for Linux</li>
+            <li><a href="https://rvm.io/">RVM</a> - Ruby version manager</li>
+        </ul>
+        <h4 class="subCategory">Operating Systems</h4>
+        <ul class="subList">
+            <li>Windows</li>
+            <li>>Mac OSX</li>
+            <li>Arch Linux</li>
+            <li>Ubuntu</li>
+            <li>Debian - Kali/Parrot</li>
+            <li>Fedora</li>
         </ul>
         <h2>Community</h2>
         <h3 class="subCategory">Organizations</h3>
@@ -56,6 +67,7 @@
         include('./Partials/portfolio.php');
         include('./Partials/footer.php');
     ?>
+    <script src="/JS/darkmode.min.js"></script>
 </body>
 </html>
 

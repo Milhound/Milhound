@@ -12,7 +12,7 @@ $background: lighten(lightgrey, 10%);
 		padding-left: 2em;
 	}
 	.subList{
-		margin-left: 3em;
+		margin-left: 1em;
 		list-style-type: upper-roman;
 	}
 	p{
@@ -84,8 +84,7 @@ $background: lighten(lightgrey, 10%);
 }
 // --------- Tablet --------- //
 @media screen and (min-width: 760px){
-	#portfolio{
-		
+	#portfolio{	
 		h1{
 			text-decoration: underline;
 		}
@@ -107,9 +106,9 @@ $background: lighten(lightgrey, 10%);
 // ---------- Print ------- //
 @media print {
 	#portfolio .item{
-			img{
-				height: 20em;
-				margin: 0 .5em;
-			}
+		img{
+			height: 20em;
+			margin: 0 .5em;
 		}
+	}
 }

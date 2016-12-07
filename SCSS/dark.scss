@@ -1,0 +1,31 @@
+$dark: darken(#434954, 10%);
+$lightblue: #558EFF;
+
+body{
+  color: darken(white, 15%);
+  background-color: $dark;
+}
+
+a {
+  color: lighten($lightblue, 10%) !important;
+}
+
+footer{
+  background-color: darken($dark, 5%) !important;
+}
+header {
+  background-color: darken($dark, 5%) !important;
+}
+
+#portfolio {
+  hr {
+    background-color: $lightblue !important;
+  }
+  img{
+    border: 2px solid $lightblue !important;
+  }
+
+	img:hover{
+		box-shadow: 0 0 15px lighten($lightblue, 10%) !important;
+	}
+}

@@ -1,11 +1,13 @@
 const gulp = require('gulp')
 const sass = require('gulp-sass')
-const minify = require('gulp-minify')
+const uglify = require('gulp-uglify')
+const rename = require('gulp-rename')
 const livereload = require('gulp-livereload')
 
 gulp.task('js', () => {
   gulp.src('./JS/src/*.js')
-    .pipe(minify())
+    .pipe(uglify())
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('./JS'))
     .pipe(livereload())
 })

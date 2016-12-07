@@ -1,6 +1,6 @@
 <!-- Sidebar -->
 <div id="sidebar">
-    <img src="Images/Daniel.jpg" alt="Daniel Milholland">
+    <img src="/Images/Daniel.jpg" alt="Daniel Milholland">
     <h2>Contact</h2>
     <!-- Email -->
     <a href="mailto:Milhound@gmail.com?Subject=Milhound.com%20-%20(Contact)" class="contact-link">Email</a>

@@ -3,7 +3,7 @@
 // --------- Variables --------- //
 $background: lighten(lightgrey, 10%);
 $highlight: #A6C93C;
-$blue: #126BFF;
+$blue: #0058e6;
 $lightblue: #558EFF;
 // --------- Global --------- //
 *{
@@ -20,6 +20,7 @@ a{
 }
 a:hover{ 
 	color: darken($blue, 20%);
+	text-decoration: underline;
 }
 // --------- Nav --------- //
 header{

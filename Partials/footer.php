@@ -4,7 +4,15 @@
 <!-- Footer -->
   <footer>
     <div class="copy">&copy; 2016 Daniel Milholland</div>
-    <div class="footer-link"><a href="https://www.milhound.com/resume.html">Resume</a></div>
+    <div class="footer-link"><a href="/resume">Resume</a> - <a href="javascript:darkmode()">
+    <?php
+        if($_SESSION["darkmode"] == false) {
+          echo 'Dark Version';
+        } else {
+          echo 'Light Version';
+        }
+    ?>
+    </a></div>
     <!-- Social Share -->
     <div class="social">
       <h3>Share</h3>

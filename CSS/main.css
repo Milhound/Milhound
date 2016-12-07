@@ -529,10 +529,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #126BFF; }
+  color: #0058e6; }
 
 a:hover {
-  color: #0040ab; }
+  color: #003180;
+  text-decoration: underline; }
 
 header {
   display: flex !important;
