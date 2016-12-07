@@ -1,16 +1,26 @@
-#bio {
-  margin-bottom: 3em; }
-  #bio .subCategory {
-    padding-left: 1em; }
-  #bio .subParagraph {
-    padding-left: 2em; }
-  #bio .subList {
-    margin-left: 1em;
-    list-style-type: upper-roman; }
-  #bio p {
-    margin: 0 1.3em; }
+#bio h2 {
+  display: inline-block;
+  margin-right: .5em;
+  margin-top: 1em; }
+
+#bio ul {
+  margin: 0 auto; }
+
+#bio .subCategory {
+  padding-left: 1em; }
+
+#bio .subParagraph {
+  padding-left: 2em; }
+
+#bio .subList {
+  margin-left: 1em;
+  list-style-type: upper-roman; }
+
+#bio p {
+  margin: 0 1.3em; }
 
 #portfolio {
+  margin-top: 1em;
   padding-bottom: 1em; }
   #portfolio hr {
     height: 2px;

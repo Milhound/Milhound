@@ -535,6 +535,25 @@ a:hover {
   color: #003180;
   text-decoration: underline; }
 
+.toggled {
+  animation: reduceHeight 800ms linear;
+  animation-fill-mode: forwards;
+  transition: visibility 1s, opacity 1s;
+  visibility: hidden;
+  opacity: 0; }
+
+@keyframes increaseHeight {
+  from {
+    max-height: 0; }
+  to {
+    max-height: 70em; } }
+
+@keyframes reduceHeight {
+  from {
+    max-height: 70em; }
+  to {
+    max-height: 0; } }
+
 header {
   display: flex !important;
   align-items: center;
