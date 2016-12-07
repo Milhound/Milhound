@@ -18,7 +18,12 @@ gulp.task('scss',() => {
 })
 
 gulp.task('html', () => {
-  gulp.src('*.html')
+  gulp.src('./**/*.html')
+  .pipe(livereload())
+})
+
+gulp.task('php', () => {
+  gulp.src('./**/*.php')
   .pipe(livereload())
 })
 
@@ -27,6 +32,7 @@ gulp.task('watch', () => {
   gulp.watch('./SCSS/*.scss', ['scss'])
   gulp.watch('./JS/src/*.js', ['js'])
   gulp.watch('*.html', ['html'])
+  gulp.watch('*.php', ['php'])
 })
 
 // Watch Tasks

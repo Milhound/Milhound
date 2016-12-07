@@ -2,31 +2,6 @@
 $blue: darken(#126BFF, 10%);
 $lightblue: #558EFF;
 $background: lighten(lightgrey, 10%);
-
-// --------- Global --------- //
-	#content{
-		hr{
-			height: 2px;
-			width: 80%;
-			background-color: $blue;
-			border: none;
-		}
-	}
-
-// --------- Sidebar --------- //
-#sidebar{
-
-	h1,h2,h3,h4,h5,h6{
-		width: 100%;
-		text-align: center;
-		margin: 0;
-	}
-
-	a{
-		text-transform: uppercase;
-		font-size: .9em;
-	}
-}
 // --------- Bio --------- //
 #bio{
 	margin-bottom: 3em;
@@ -87,36 +62,11 @@ $background: lighten(lightgrey, 10%);
 		}
 	}
 }
-
 // --------- Mobile --------- //
 @media screen and (max-width: 760px){
-
-	#sidebar{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-
-		img{
-			width: 100%;
-		}
-
-		h1,h2,h3,h4,h5,h6{
-			display: none;
-		}
-
-		a{
-			margin: 1em .7em;
-		}
-
-		.social{
-			display: none;
-		}
-	}
-
 	#bio{
 		padding-left: 1em;
 	}
-
 	#portfolio{
 		padding-left: 1em;
 
@@ -130,75 +80,8 @@ $background: lighten(lightgrey, 10%);
 		}
 	}
 }
-
 // --------- Tablet --------- //
 @media screen and (min-width: 760px){
-
-	.wrapper{
-		display: flex;
-		flex-wrap: nowrap;
-	}
-
-
-
-	#sidebar{
-		width: 20em;
-		min-width: 175px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		border-right: 1px solid black;
-		padding: 1em;
-
-		img{
-			width: 10em;
-			max-height: 10em;
-			border-radius: .35em;
-		}
-
-		h2{
-			margin-top: .5em;
-		}
-
-		h3{
-			margin: .3em 0;
-		}
-
-		a{
-			margin: .25em 0;
-		}
-
-		.social{
-
-			button{
-				line-height: .5em;
-				padding: .4em;
-				border-radius: .3em;
-				border: 1px solid black;
-				background-color: white;
-				margin: 0;
-			}
-
-			.socicon-facebook{
-				color: #314789;
-			}
-			.socicon-twitter{
-				color: #1D8DEE;
-			}
-			.socicon-googleplus{
-				color: #AD2A21;
-			}
-		}
-
-	}
-
-	#content{
-		flex: 1 1 auto;
-		display: flex;
-		flex-direction: column;
-		padding-left: 1em;
-	}
-
 	#portfolio{
 		
 		h1{
@@ -218,5 +101,4 @@ $background: lighten(lightgrey, 10%);
 			}
 		}
 	}
-	
 }

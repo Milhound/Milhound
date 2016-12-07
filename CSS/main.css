@@ -534,6 +534,12 @@ a {
 a:hover {
   color: #0040ab; }
 
+#content hr {
+  height: 2px;
+  width: 80%;
+  background-color: #126BFF;
+  border: none; }
+
 header {
   display: flex !important;
   align-items: center;
@@ -551,6 +557,15 @@ header {
       margin: 0 1em; }
     header #nav #close {
       display: none; }
+
+#sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5, #sidebar h6 {
+  width: 100%;
+  text-align: center;
+  margin: 0; }
+
+#sidebar a {
+  text-transform: uppercase;
+  font-size: .9em; }
 
 footer {
   display: flex;
@@ -577,6 +592,25 @@ footer {
 @media screen and (max-width: 760px) {
   header #title {
     margin-left: 1em; }
+  #sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    #sidebar img {
+      margin: 0 5%;
+      width: 90%;
+      max-height: 30em;
+      object-fit: contain;
+      -o-object-fit: contain;
+      object-position: top;
+      -o-object-position: top;
+      height: auto; }
+    #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5, #sidebar h6 {
+      display: none; }
+    #sidebar a {
+      margin: 1em .7em; }
+    #sidebar .social {
+      display: none; }
   footer .copy {
     margin: .5em 0; }
   footer .social {
@@ -599,11 +633,49 @@ footer {
       color: #AD2A21; } }
 
 @media screen and (min-width: 760px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
   header {
     flex-wrap: nowrap;
     border-bottom: 1px solid black; }
     header #title {
       margin-left: 1em; }
+  #sidebar {
+    width: 20em;
+    min-width: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid black;
+    padding: 1em; }
+    #sidebar img {
+      width: 100%;
+      border-radius: .35em; }
+    #sidebar h2 {
+      margin-top: .5em; }
+    #sidebar h3 {
+      margin: .3em 0; }
+    #sidebar a {
+      margin: .25em 0; }
+    #sidebar .social button {
+      line-height: .5em;
+      padding: .4em;
+      border-radius: .3em;
+      border: 1px solid black;
+      background-color: white;
+      margin: 0; }
+    #sidebar .social .socicon-facebook {
+      color: #314789; }
+    #sidebar .social .socicon-twitter {
+      color: #1D8DEE; }
+    #sidebar .social .socicon-googleplus {
+      color: #AD2A21; }
+  #content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em; }
   footer .social {
     display: none; } }
 
