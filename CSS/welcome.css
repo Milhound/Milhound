@@ -12,6 +12,11 @@
 
 #portfolio {
   padding-bottom: 1em; }
+  #portfolio hr {
+    height: 2px;
+    width: 80%;
+    background-color: #0053de;
+    border: none; }
   #portfolio h2:first-child {
     text-align: center;
     text-transform: uppercase;
@@ -54,4 +59,9 @@
     justify-content: center; }
   #portfolio .item img {
     height: 10em;
+    margin: 0 .5em; } }
+
+@media print {
+  #portfolio .item img {
+    height: 20em;
     margin: 0 .5em; } }

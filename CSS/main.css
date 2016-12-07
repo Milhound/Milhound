@@ -534,12 +534,6 @@ a {
 a:hover {
   color: #0040ab; }
 
-#content hr {
-  height: 2px;
-  width: 80%;
-  background-color: #126BFF;
-  border: none; }
-
 header {
   display: flex !important;
   align-items: center;
@@ -685,4 +679,6 @@ footer {
   footer {
     display: none !important; }
   body {
-    padding: 2em 0; } }
+    padding: 2em 0; }
+  #sidebar {
+    display: none; } }

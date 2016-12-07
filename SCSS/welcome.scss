@@ -5,7 +5,6 @@ $background: lighten(lightgrey, 10%);
 // --------- Bio --------- //
 #bio{
 	margin-bottom: 3em;
-	
 	.subCategory{
 		padding-left: 1em;
 	}
@@ -16,16 +15,19 @@ $background: lighten(lightgrey, 10%);
 		margin-left: 3em;
 		list-style-type: upper-roman;
 	}
-
 	p{
 		margin: 0 1.3em;
 	}
 }
-
 // --------- Portfolio --------- //
 #portfolio{
 	padding-bottom: 1em;
-
+	hr{
+		height: 2px;
+		width: 80%;
+		background-color: $blue;
+		border: none;
+	}
 	h2:first-child{
 		text-align: center;
 		text-transform: uppercase;
@@ -101,4 +103,13 @@ $background: lighten(lightgrey, 10%);
 			}
 		}
 	}
+}
+// ---------- Print ------- //
+@media print {
+	#portfolio .item{
+			img{
+				height: 20em;
+				margin: 0 .5em;
+			}
+		}
 }
