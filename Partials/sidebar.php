@@ -19,6 +19,15 @@
     <a href="https://youtube.com/c/Milhoundz" class="contact-link">YouTube</a>
     <!-- Google Plus -->
     <a href="https://google.com/+DanielMilholland-Milhound" class="contact-link">Google +</a>               
+    <div class="modeToggle">
+    <?php 
+        if($_SESSION["darkmode"] == false){
+            echo '<a href="javascript:darkmode()">Dark Version</a>';
+        } else {
+            echo '<a href="javascript:darkmode()">Light Version</a>';
+        }
+    ?>
+    </div>
     <!-- Social Share -->
     <div class="social">
         <h3>Share</h3>

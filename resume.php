@@ -75,6 +75,7 @@
         <p><i>Flow Team Member/Back stock
         </i></p>
     </section>
-    <?php include('./Partials/footer.php'); ?>
+</div>
+</div>
 </body>
 </html>

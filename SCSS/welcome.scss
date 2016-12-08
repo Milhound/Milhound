@@ -3,15 +3,11 @@ $blue: darken(#126BFF, 10%);
 $lightblue: #558EFF;
 $background: lighten(lightgrey, 10%);
 
-#bio-paragraph, #experience, #community{
-	visibility: hidden;
-	opacity:0;
-	max-height: 0;
-	transition: 900ms;
-	&.toggled{
-		visibility: visible;
-		opacity: 1;
-		max-height: 1000em;
+#bio-paragraph, #experience, #community, #examples{
+	height: 0;
+	overflow: hidden;
+	&.active{
+		height: auto;
 	}
 }
 .menu-button{
@@ -31,7 +27,7 @@ $background: lighten(lightgrey, 10%);
 	.bar2 {
 		transform: rotate(90deg) translate(-5px, 0);
 	}
-	.change .bar2{
+	&.change .bar2{
 		opacity: 0;
 	}
 }
@@ -71,39 +67,30 @@ $background: lighten(lightgrey, 10%);
 }
 // --------- Portfolio --------- //
 #portfolio{
-	margin-top: 1em;
-	padding-bottom: 1em;
-	hr{
-		height: 2px;
-		width: 80%;
-		background-color: $blue;
-		border: none;
-	}
-	h2:first-child{
-		text-align: center;
-		text-transform: uppercase;
-		text-decoration: underline;
-		margin:0;
-	}
+	margin: 0;
 	h2{
-		margin: .25em 0;
+		display: inline-block;
+		margin-right: .5em;
+		margin-top: 1em;
 	}
-
-	li{
-		list-style-type: none;
-	}
-
-	.item{
-		text-align: center;
-	}
-
-	img{
-		border-radius: .35em;
-		border: 2px solid $blue;
-	}
-
-	img:hover{
-		box-shadow: 0 0 5px $lightblue;
+	#examples {
+		&.active {
+			padding-bottom: 18em;
+		}
+		h4, ul{
+			margin-left: 1.35em;
+		}
+		li{
+			list-style-type: decimal;
+		}
+		img{
+			display:none;
+		}
+		a:hover~img{
+			margin-top: .5em;
+			display: block;
+			border-radius: 1em;
+		}
 	}
 }
 // --------- Mobile:Small --------- //
@@ -128,30 +115,21 @@ $background: lighten(lightgrey, 10%);
 
 		.item{
 			width: 100%;
-
-			img{
-				width: 60%;
-				margin: 0 auto;
-			}
+		}
+		a:hover~img{
+			width: 100%;
+			height: auto;
 		}
 	}
 }
 // --------- Tablet --------- //
 @media screen and (min-width: 760px){
-	#portfolio{	
-		h1{
-			text-decoration: underline;
-		}
-		ul{
-			display:flex;
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-		.item{
-			img{
-				height: 10em;
-				margin: 0 .5em;
-			}
+	#portfolio{
+			a:hover~img{
+			position: fixed;
+			top: 20%;
+			left: 45%;
+			width: 40%;
 		}
 	}
 }
