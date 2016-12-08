@@ -17,6 +17,10 @@ header {
   background-color: darken($dark, 5%) !important;
 }
 
+.bar1,.bar2,.bar3{
+  background-color: lighten($lightblue, 10%) !important;
+}
+
 #portfolio {
   hr {
     background-color: $lightblue !important;

@@ -9,7 +9,11 @@
 <body>
     <?php include('./Partials/content.php'); ?>
     <section id="bio">
-        <h2>Biography</h2><a style="font-size: .75em;" href="javascript:toggleCollapse(1)">[Toggle]</a>
+        <h2>Biography</h2>
+        <div class="menu-button change" onclick="change(this, 1)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+        </div>
         <div id="bio-paragraph">
             <p>
                 My name is Daniel Milholland (<a href="https://twitter.com/Milhound" class="contact-link">@Milhound</a>). I am employed in <a href="http://www.gailwindslog.com/">Gail Winds Logistics</a> as the Operations Supervisor. However, I aspire to work in the information technology field, as a software developer or information security analyst. I am a quick learner and am highly dedicated to my studies. I am a coding hobbyist who is always striving to learn more, and create more complex applications.<br>           
@@ -19,7 +23,12 @@
                 As for emerging technologies, I'm quite interested in the <a href="https://www.rust-lang.org/">Rust Programming Language</a>. It appears to have worked out the pitfalls, of traditional the C/C++ language and promotes itself as the complete memory safe option for writing C-level applications. The language looks different than that of C/C++, and honestly, I love most of the syntax. 
             </p>
         </div>       
-        <h2>Experience</h2><a style="font-size: .75em;" href="javascript:toggleCollapse(2)">[Toggle]</a>
+        <h2>Experience</h2>
+        <div class="menu-button change" onclick="change(this, 2)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
         <div id="experience">
             <p>
                 I am fully self-taught and have used many great resources to obtain the level of knowledge I have now. <a href="https://teamtreehouse.com">Team Treehouse</a> taught me the basics of software development and the overall principles of programming design. <a href="https://www.thenewboston.com">Thenewboston</a> was a great resource to learn about, and practice with new technologies. However, I feel like most of my growth has come from communities on Discord/Slack, and other servers where I am able to communicate with other developers. I am always looking for new opportunities to learn more about programming. I currently have experience creating and making API requests, socket connections, and REST services.
@@ -51,7 +60,12 @@
                 <li>Fedora</li>
             </ul>
         </div>
-        <h2>Community</h2><a style="font-size: .75em;" href="javascript:toggleCollapse(3)">[Toggle]</a>
+        <h2>Community</h2>
+        <div class="menu-button change" onclick="change(this, 3)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
         <div id="community">
             <h3 class="subCategory">Organizations</h3>
             <p class="subParagraph">Currently a part of the following communities:</p>

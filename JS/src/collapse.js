@@ -1,5 +1,5 @@
-function toggleCollapse (target) {
-  switch (target) {
+function toggleCollapse (x) {
+  switch (x){
     case 1:
       document.getElementById('bio-paragraph').classList.toggle('toggled')
       break;
@@ -10,4 +10,9 @@ function toggleCollapse (target) {
       document.getElementById('community').classList.toggle('toggled')
       break;
   }
+}
+
+function change (x, target) {
+  x.classList.toggle('change')
+  toggleCollapse(target)
 }

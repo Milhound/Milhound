@@ -11,6 +11,9 @@ footer {
 header {
   background-color: #212429 !important; }
 
+.bar1, .bar2, .bar3 {
+  background-color: #88b0ff !important; }
+
 #portfolio hr {
   background-color: #558EFF !important; }
 
