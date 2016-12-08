@@ -1,22 +1,29 @@
 const gulp = require('gulp')
+const pump = require('pump')
 const sass = require('gulp-sass')
 const uglify = require('gulp-uglify')
+const uglifycss = require('gulp-uglifycss')
 const rename = require('gulp-rename')
 const livereload = require('gulp-livereload')
 
 gulp.task('js', () => {
-  gulp.src('./JS/src/*.js')
-    .pipe(uglify().on('error', err => { console.log(err) }))
-    .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('./JS'))
-    .pipe(livereload())
+  pump([
+    gulp.src('./JS/src/*.js'),
+    uglify(),
+    rename({ suffix: '.min' }),
+    gulp.dest('./JS'),
+    livereload()
+  ], err => { console.log(err) })
 })
 
 gulp.task('scss',() => {
-    gulp.src('./SCSS/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./CSS'))
-    .pipe(livereload())
+  pump([
+    gulp.src('./SCSS/*.scss'),
+    sass(),
+    uglifycss(),
+    gulp.dest('./CSS'),
+    livereload()
+  ], err => { console.log(err) })
 })
 
 gulp.task('html', () => {

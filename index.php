@@ -14,7 +14,7 @@
             <div class="bar1"></div>
             <div class="bar2"></div>
         </div>
-        <div id="bio-paragraph">
+        <div id="bio-paragraph" class="toggled">
             <p>
                 My name is Daniel Milholland (<a href="https://twitter.com/Milhound" class="contact-link">@Milhound</a>). I am employed in <a href="http://www.gailwindslog.com/">Gail Winds Logistics</a> as the Operations Supervisor. However, I aspire to work in the information technology field, as a software developer or information security analyst. I am a quick learner and am highly dedicated to my studies. I am a coding hobbyist who is always striving to learn more, and create more complex applications.<br>           
             <br>
@@ -27,46 +27,52 @@
         <div class="menu-button change" onclick="change(this, 2)">
             <div class="bar1"></div>
             <div class="bar2"></div>
-            <div class="bar3"></div>
         </div>
-        <div id="experience">
+        <div id="experience" class="toggled">
             <p>
                 I am fully self-taught and have used many great resources to obtain the level of knowledge I have now. <a href="https://teamtreehouse.com">Team Treehouse</a> taught me the basics of software development and the overall principles of programming design. <a href="https://www.thenewboston.com">Thenewboston</a> was a great resource to learn about, and practice with new technologies. However, I feel like most of my growth has come from communities on Discord/Slack, and other servers where I am able to communicate with other developers. I am always looking for new opportunities to learn more about programming. I currently have experience creating and making API requests, socket connections, and REST services.
             </p>
-            <h4 class="subCategory">Languages</h4>
-            <ul class="subList">
-                <li>JavaScript - (ES 2016)</li>
-                <li>Rust</li>
-                <li>Ruby</li>
-                <li>Python</li>
-                <li>PHP</li>
-            </ul>
-            <h4 class="subCategory">Tools</h4>
-            <ul class="subList">
-                <li><a href="https://www.npmjs.com/">NPM</a> - Node package manager</li>
-                <li><a href="https://git-scm.com/">Git</a> - Version control</li>
-                <li><a href="https://pypi.python.org/pypi/pip">PIP</a> - Python package manager</li>
-                <li><a href="http://gulpjs.com/">Gulp</a> - Script automation</li>
-                <li><a href="http://pm2.keymetrics.io/">PM2</a> - Node.js process manager for Linux</li>
-                <li><a href="https://rvm.io/">RVM</a> - Ruby version manager</li>
-            </ul>
-            <h4 class="subCategory">Operating Systems</h4>
-            <ul class="subList">
-                <li>Windows</li>
-                <li>Mac OSX</li>
-                <li>Arch Linux</li>
-                <li>Ubuntu</li>
-                <li>Debian - Kali/Parrot</li>
-                <li>Fedora</li>
-            </ul>
+            <div class="row">
+                <div class="item">
+                    <h4 class="subCategory">Languages</h4>
+                    <ul class="subList">
+                        <li>JavaScript - (ES 2016)</li>
+                        <li>Rust</li>
+                        <li>Ruby</li>
+                        <li>Python</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h4 class="subCategory">Tools</h4>
+                    <ul class="subList">
+                        <li><a href="https://www.npmjs.com/">NPM</a> - Node package manager</li>
+                        <li><a href="https://git-scm.com/">Git</a> - Version control</li>
+                        <li><a href="https://pypi.python.org/pypi/pip">PIP</a> - Python package manager</li>
+                        <li><a href="http://gulpjs.com/">Gulp</a> - Script automation</li>
+                        <li><a href="http://pm2.keymetrics.io/">PM2</a> - Node.js process manager for Linux</li>
+                        <li><a href="https://rvm.io/">RVM</a> - Ruby version manager</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h4 class="subCategory">Operating Systems</h4>
+                    <ul class="subList">
+                        <li>Windows</li>
+                        <li>Mac OSX</li>
+                        <li>Arch Linux</li>
+                        <li>Ubuntu</li>
+                        <li>Debian - Kali/Parrot</li>
+                        <li>Fedora</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <h2>Community</h2>
         <div class="menu-button change" onclick="change(this, 3)">
             <div class="bar1"></div>
             <div class="bar2"></div>
-            <div class="bar3"></div>
         </div>
-        <div id="community">
+        <div id="community" class="toggled">
             <h3 class="subCategory">Organizations</h3>
             <p class="subParagraph">Currently a part of the following communities:</p>
             <ul class="subList">

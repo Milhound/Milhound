@@ -22,45 +22,6 @@ a:hover{
 	color: darken($blue, 20%);
 	text-decoration: underline;
 }
-
-.toggled{
-	animation: reduceHeight 800ms linear;
-	animation-fill-mode: forwards;
-	transition: visibility 1s, opacity 1s;
-	visibility: hidden;
-	opacity: 0;
-
-}
-
-@keyframes reduceHeight{
-	from {max-height: 70em;}
-	to {max-height: 0;}
-}
-
-.menu-button{
-	display: inline-block;
-	cursor: pointer;
-	margin-bottom: -3px;
-}
-
-.bar1, .bar2 {
-	 width: 15px;
-	 height: 3px;
-	 background-color: $blue;
-	 margin: 3px 0;
-	 transition: 800ms;
-}
-.bar1{
-	transform: translate(0, 1px);
-}
-.bar2 {
-	transform: rotate(90deg) translate(-5px, 0);
-}
-
-.change .bar2{
-	opacity: 0;
-}
-
 // --------- Nav --------- //
 header{
 	display: flex !important;
