@@ -20,8 +20,6 @@
   <meta name="Description" content="Personal Website of Daniel Milholland (@Milhound), IT enthusiast and aspiring developer." />
   <meta name="Keywords" content="Daniel, Milholland, Milhound, Personal, Website, Programming, Programmer, Portfolio, Web, Design, Rails, Java, PHP, HTML, HTML5, CSS, CSS3, Ruby, Python, Django, Front end, Back End, Developer" />
   <!-- Font -->
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
-  <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
   <?php
     if (isset($_SESSION["darkmode"])) {
       $dark = $_SESSION["darkmode"];
