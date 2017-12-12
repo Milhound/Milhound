@@ -12,7 +12,7 @@
         <!-- Title -->
         <div class="title">
             <h2>Daniel Milholland</h2>
-            <span>32314 Golden Oak Park Ln. | Conroe, TX 77385</span><br>
+            <span>1415 Deodara | Cedar Park, TX 78613</span><br>
             <span>(512) 763-0875 | <a href="mailto:dsmilholland@gmail.com">DSMilholland@gmail.com</a></span>
         </div>
         <hr style="width:95%">
@@ -49,7 +49,7 @@
             </tr>
             <tr>
                 <td>O/S:</td>
-                <td>UNIX/Solaris, Windows, Mac</tr>
+                <td>UNIX/BSD, Linux, Windows, Mac</tr>
             </tr>
             <tr>
                 <td>Tools:</td>
@@ -57,13 +57,13 @@
             </tr>
             <tr>
                 <td>Database:</td>
-                <td>MySQL, Postgress, Sqlite 3</td>
+                <td>MySQL, Postgres, SQLite 3</td>
             </tr>
         </table>
         <!-- Employment History -->
         <h3>Employment History</h3>
         <div class="bold">GAIL WINDS LOGISTICS</div> – Houston, TX<span>July 1, 2013 – Present</span>
-        <p><i>Operations Supervisior
+        <p><i>Operations Supervisor
         </i></p>
         <div class="bold">HSS SECURITY</div> – San Antonio, TX<span>March 22, 2013 – July 1, 2013</span>
         <p><i>Security Officer

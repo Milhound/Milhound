@@ -8,7 +8,6 @@
 ?>
 <body>
     <?php include('./Partials/content.php'); ?>
-    <div id="testReact"></div>
     <section id="bio">
         <h2>Biography</h2>
         <div class="menu-button change" onclick="change(this, 1)">
@@ -100,7 +99,7 @@
             <div class="javascript">
                 <ul>
                 <li class="item">
-                    <a href="https://wowstats.xyz/">Wowstats.xyz</a>
+                    <a href="https://bitbucket.org/Milhound/wowstats">Wowstats.xyz</a>
                     <img src="/Images/wowstats.png" alt="Wowstats">
                 </li>
                 <li class="item">

@@ -1,29 +1,19 @@
 const gulp = require('gulp')
 const pump = require('pump')
 const sass = require('gulp-sass')
+const babel = require('gulp-babel')
 const uglify = require('gulp-uglify')
 const uglifycss = require('gulp-uglifycss')
 const rename = require('gulp-rename')
-const react = require('gulp-react')
-const livereload = require('gulp-livereload')
 
-gulp.task('jsx', () => {
-  pump([
-    gulp.src('./JS/React/src/*.jsx'),
-    react(),
-    gulp.dest('./JS/React'),
-    livereload()
-  ], err => { console.log })
-})
-
-gulp.task('js', () => {
+gulp.task('js', (cb) => {
   pump([
     gulp.src('./JS/src/*.js'),
+    babel({presets: ['es2015']}),
     uglify(),
     rename({ suffix: '.min' }),
-    gulp.dest('./JS'),
-    livereload()
-  ], err => { console.log })
+    gulp.dest('./JS')
+  ], cb)
 })
 
 gulp.task('scss',() => {
@@ -32,29 +22,14 @@ gulp.task('scss',() => {
     sass(),
     uglifycss(),
     rename({ suffix: '.min' }),
-    gulp.dest('./CSS'),
-    livereload()
+    gulp.dest('./CSS')
   ], err => { console.log })
 })
 
-gulp.task('html', () => {
-  gulp.src('./**/*.html')
-  .pipe(livereload())
-})
-
-gulp.task('php', () => {
-  gulp.src('./**/*.php')
-  .pipe(livereload())
-})
-
 gulp.task('watch', () => {
-  livereload.listen({start: true})
   gulp.watch('./SCSS/*.scss', ['scss'])
   gulp.watch('./JS/src/*.js', ['js'])
-  gulp.watch('./JS/React/**/*.jsx', ['jsx'])
-  gulp.watch('*.html', ['html'])
-  gulp.watch('*.php', ['php'])
 })
 
 // Watch Tasks
-gulp.task('default', ['jsx', 'js', 'scss', 'watch'])
+gulp.task('default', ['js', 'scss', 'watch'])
