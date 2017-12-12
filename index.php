@@ -37,10 +37,10 @@
                     <h4 class="subCategory">Languages</h4>
                     <ul class="subList">
                         <li>JavaScript - (ES 2016)</li>
-                        <li>Rust</li>
-                        <li>Ruby</li>
-                        <li>Python</li>
-                        <li>PHP</li>
+                        <li>Python3</li>
+                        <li>PHP7</li>
+			<li>Rust</li>
+			<li>Ruby</li>
                     </ul>
                 </div>
                 <div class="item">
@@ -112,10 +112,6 @@
             <h4>Rails</h4>
             <div class="rails">
                 <ul>
-                <li class="item">
-                    <a href="http://rails.milhound.com/">Milhound.com (Previous Version)</a>
-                    <img src="/Images/Milhound-Screenshot.jpg" alt="Milhound.com (Old)">
-                </li>
                 <li class="item">
                     <a href="https://github.com/Milhound/Rails-Test-1.git">Rails Flexbox</a>
                     <img src="/Images/Bear.jpg" alt="Blog">
