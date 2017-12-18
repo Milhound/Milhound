@@ -25,7 +25,8 @@
       $dark = $_SESSION["darkmode"];
       if ($dark == true) echo '<link rel="stylesheet" href="/CSS/dark.min.css">'."\n";
     } else {
-      $_SESSION["darkmode"] = false;
+      $_SESSION["darkmode"] = true;
+      echo '<link rel="stylesheet" href="/CSS/dark.min.css">'."\n";
     }
     
     if (isset($css)) {
