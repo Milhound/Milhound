@@ -3,7 +3,7 @@
 <html lang="en">
 <?php
     $title = 'Daniel Milholland - Resume';
-    $css = 'resume.min.css';
+    $css = 'resume.css';
     include('./Partials/head.php');
 ?>
 <body>

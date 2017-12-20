@@ -3,7 +3,7 @@
 <html lang="en">
 <?php
     $title = 'Daniel Milholland - Developer\'s Portfolio';
-    $css = 'welcome.min.css';
+    $css = 'welcome.css';
     include('./Partials/head.php');
 ?>
 <body>

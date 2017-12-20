@@ -23,16 +23,16 @@
   <?php
     if (isset($_SESSION["darkmode"])) {
       $dark = $_SESSION["darkmode"];
-      if ($dark == true) echo '<link rel="stylesheet" href="/CSS/dark.min.css">'."\n";
+      if ($dark == true) echo '<link rel="stylesheet" href="/CSS/dark.css">'."\n";
     } else {
       $_SESSION["darkmode"] = true;
-      echo '<link rel="stylesheet" href="/CSS/dark.min.css">'."\n";
+      echo '<link rel="stylesheet" href="/CSS/dark.css">'."\n";
     }
     
     if (isset($css)) {
       echo '<link rel="stylesheet" href="/CSS/'. $css. '">'."\n";
     }
-    echo '  <link rel="stylesheet" href="/CSS/main.min.css">'."\n";
+    echo '  <link rel="stylesheet" href="/CSS/main.css">'."\n";
     echo '  <script async src="/JS/google.js"></script>'."\n";
   ?>
 </head>
