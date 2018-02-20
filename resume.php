@@ -12,8 +12,7 @@
         <!-- Title -->
         <div class="title">
             <h2>Daniel Milholland</h2>
-            <span>1415 Deodara | Cedar Park, TX 78613</span><br>
-            <span>(512) 763-0875 | <a href="mailto:dsmilholland@gmail.com">DSMilholland@gmail.com</a></span>
+            <span><a href="mailto:dsmilholland@gmail.com">DSMilholland@gmail.com</a></span>
         </div>
         <hr style="width:95%">
         <!-- Goal -->
