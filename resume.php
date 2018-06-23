@@ -18,61 +18,60 @@
         <!-- Goal -->
         <h3>Objective</h3>
         <p>
-            Detail-oriented programmer seeking a professional career in software development.
-            My desired career is one that will challenge and utilize my skills, as well as
-            continuing to further my knowledge in programming.
+        Detail-oriented technical specialist seeking a career in information technology that will challenge and utilize my skills, as well as continue to further my knowledge
         </p>
         <!-- Education -->
         <h3>Education</h3>
         <p>
-            University of Texas-San Antonio <span>December 2012-Present</span><br>
+            Lone Star Community College <span>May 2017-Present</span><br>
+            <br>
+            University of Texas-San Antonio <span>December 2014-Present</span><br>
             Bachelor of Science in Computer Science<br>
-        <br>
-        Oak Ridge High School<span>Graduated May 2011</span><br>
-        Conroe, TX<br>
         </p>
         <!-- Skills -->
-        <h3>DEVELOPMENT SKILLS</h3>
+        <h3>TECHNICAL SKILLS</h3>
         <table class="table-padding">
             <tr>
-                <td>Languages:</td>
-                <td>Python, Ruby, Rust, HTML, CSS, XML, JavaScript, Git, Swift</td>
-            </tr>
-            <tr>
-                <td>Preprocessors:</td>
-                <td>Coffee Script, SASS, HAML, ERB</td>
-            </tr>
-            <tr>
-                <td>Libraries:</td>
-                <td>Ruby on Rails, RSpec, jQuery, Express, Node.js, Django</td>
-            </tr>
-            <tr>
                 <td>O/S:</td>
-                <td>UNIX/BSD, Linux, Windows, Mac</tr>
+                <td>macOS, Windows 10, iOS, Android, Linux (Ubuntu, Fedora, Arch)</td>
             </tr>
             <tr>
-                <td>Tools:</td>
-                <td>Gulp, NPM, PIP, VIM, Atom, Visual Studio, Github/Bit Bucket</td>
+                <td>Languages:</td>
+                <td>Java, JavaScript, Python, Ruby, PHP, HTML, CSS, Git</td>
             </tr>
             <tr>
-                <td>Database:</td>
-                <td>MySQL, Postgres, SQLite 3</td>
+                <td>SaaS Products:</td>
+                <td>Salesforce, MaaS360, Storage (Box, Google Drive, Dropbox), Office365, BigFix, GSuite, Amazon Web Services (AWS)</td>
             </tr>
         </table>
         <!-- Employment History -->
         <h3>Employment History</h3>
-        <div class="bold">GAIL WINDS LOGISTICS</div> – Houston, TX<span>July 1, 2013 – Present</span>
-        <p><i>Operations Supervisor
-        </i></p>
+        <div class="bold">IBM</div> - Austin, TX<span>April 14, 2018</span>
+        <p><i>Technical Support Engineer II - MaaS360</i></p>
+        <ul style="list-style-type: square;margin-left:1.5em;">
+            <li>Provided service walkthroughs</li>
+            <li>Informed Administrators of new product changes</li>
+            <li>Troubleshooted customer environments and mobile devices</li>
+        </ul>
+        <div class="bold">GAIL WINDS LOGISTICS</div> – Houston, TX<span>July 1, 2013 – April 13, 2018</span>
+        <p><i>Operations Supervisor</i></p>
+        <ul style="list-style-type: square;margin-left:1.5em;">
+            <li>Developed and maintained server database to allow for a file sharing system with remote access</li>
+            <li>Administered repairs, updates and completed configuration of Windows and Mac systems</li>
+            <li>Trained employees in Windows and Mac operating systems</li>
+            <li>Assisted end-users having hardware, software and/or networking issues</li>
+            <li>Managed troubleshooting international client’s issues regarding shipments departing/arriving in the United States</li>
+        </ul>
         <div class="bold">HSS SECURITY</div> – San Antonio, TX<span>March 22, 2013 – July 1, 2013</span>
-        <p><i>Security Officer
-        </i></p>
+        <p><i>Security Officer</i></p>
+        <ul style="list-style-type: square;margin-left:1.5em;">
+            <li>Provided supervision for patients and staff in a hospital environment</li>
+        </ul>
         <div class="bold">TEXAS DEPARTMENT OF CRIMINAL JUSTICE</div> – Huntsville, TX<span>January 4, 2012 – March 20, 2013</span>
-        <p><i>Correctional Officer - III
-        </i></p>
-        <div class="bold">TARGET CORPORATION</div> – Spring, TX<span>June 2011 – November 2011</span>
-        <p><i>Flow Team Member/Back stock
-        </i></p>
+        <p><i>Correctional Officer - III</i></p>
+        <ul style="list-style-type: square;margin-left:1.5em;">
+            <li>Supervised and assisted with rehabilitating offenders into society</li>
+        </ul>
     </section>
 </div>
 </div>

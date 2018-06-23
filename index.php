@@ -16,11 +16,9 @@
         </div>
         <div id="bio-paragraph" class="active">
             <p>
-                My name is Daniel Milholland (<a href="https://twitter.com/Milhound" class="contact-link">@Milhound</a>). I am employed in <a href="http://www.gailwindslog.com/">Gail Winds Logistics</a> as the Operations Supervisor. However, I aspire to work in the information technology field, as a software developer or information security analyst. I am a quick learner and am highly dedicated to my studies. I am a coding hobbyist who is always striving to learn more, and create more complex applications.<br>           
-            <br>
-                My studies are currently focused on JavaScript, and making extensive use of Node.js. I enjoy the flexibility that comes with JavaScript, and its vast assortment of frameworks/libraries. To further my knowledge in information security, I am practicing with penetration testing operating systems (Kali/Parrot).<br>
-            <br>
-                As for emerging technologies, I'm quite interested in the <a href="https://www.rust-lang.org/">Rust Programming Language</a>. It appears to have worked out the pitfalls, of traditional the C/C++ language and promotes itself as the complete memory safe option for writing C-level applications. The language looks different than that of C/C++, and honestly, I love most of the syntax. 
+                My name is Daniel Milholland (<a href="https://twitter.com/Milhound" class="contact-link">@Milhound</a>). I am currently employed at IBM as a Technical Support Engineer II (MaaS360). MaaS360 is a Mobile Device Management (MDM) service offered by IBM, we have multiple locations around the world. My duties include troubleshooting mobile devices (iOS/Android/macOS/Windows 10) and providing walk-through for new users. MDM solutions provide corporations with the ability to push corporate resources to secure devices, maintained by security focused policies. 
+                <br><br>
+                I have extensive knowledge of Android Enterprise (AFW) and Apple's DEP programs. Google's Android Enterprise is new, and constantly changing with MaaS360 we strive to keep up-to-date with all the latest releases. This creates an ever-evolving workflow for training and troubleshooting.
             </p>
         </div>       
         <h2>Experience</h2>
@@ -29,6 +27,11 @@
             <div class="bar2"></div>
         </div>
         <div id="experience" class="active">
+            <h4 style="margin:.75em;">Mobile Device Managment</h4>
+            <p>
+                My experience with MaaS360 has taught me much with regards to Mobile OS. I have experience with configuring device policies for Android, iOS, macOS, and Windows 10. With the state of Android rapidly changing in the MDM market I strive to keep myself updated with the latest API changes/deprecations, and new features. 
+            </p><br>
+            <h4 style="margin:.75em;">Programming &amp; Development</h4>
             <p>
                 I am fully self-taught and have used many great resources to obtain the level of knowledge I have now. <a href="https://teamtreehouse.com">Team Treehouse</a> taught me the basics of software development and the overall principles of programming design. <a href="https://www.thenewboston.com">Thenewboston</a> was a great resource to learn about, and practice with new technologies. However, I feel like most of my growth has come from communities on Discord/Slack, and other servers where I am able to communicate with other developers. I am always looking for new opportunities to learn more about programming. I currently have experience creating and making API requests, socket connections, and REST services.
             </p>
@@ -89,7 +92,7 @@
         </div>     
     </section>
     <section id="portfolio">
-        <h2>Portfolio</h2>
+        <h2>Development Portfolio</h2>
         <div class="menu-button change" onclick="change(this, 4)">
             <div class="bar1"></div>
             <div class="bar2"></div>
