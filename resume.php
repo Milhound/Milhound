@@ -70,7 +70,7 @@
         <div class="bold">TEXAS DEPARTMENT OF CRIMINAL JUSTICE</div> – Huntsville, TX<span>January 4, 2012 – March 20, 2013</span>
         <p><i>Correctional Officer - III</i></p>
         <ul style="list-style-type: square;margin-left:1.5em;">
-            <li>Supervised and assisted with rehabilitating offenders into society</li>
+            <li>Supervised and assisted with rehabilitating offenders into society.</li>
         </ul>
     </section>
 </div>
