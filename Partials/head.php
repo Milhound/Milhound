@@ -16,6 +16,7 @@
   <meta name="contact" content="Milhound@gmail.com">
   <link rel="icon" type="image/png" href="/Images/Favicon.png">
   <link rel="apple-touch-icon" type="image/png" href="/Images/apple-touch-icon.png">
+  <link href = "https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
   <!-- Set Search Engine Data -->
   <meta name="Description" content="Personal Website of Daniel Milholland (@Milhound), IT enthusiast and aspiring developer." />
   <meta name="Keywords" content="Daniel, Milholland, Milhound, Personal, Website, Programming, Programmer, Portfolio, Web, Design, Rails, Java, PHP, HTML, HTML5, CSS, CSS3, Ruby, Python, Django, Front end, Back End, Developer" />

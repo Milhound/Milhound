@@ -16,7 +16,7 @@
         </div>
         <div id="bio-paragraph" class="active">
             <p>
-                My name is Daniel Milholland (<a href="https://twitter.com/Milhound" class="contact-link">@Milhound</a>). I am currently employed at IBM as a Technical Support Engineer II (MaaS360). MaaS360 is a Mobile Device Management (MDM) service offered by IBM, we have multiple locations around the world. My duties include troubleshooting mobile devices (iOS/Android/macOS/Windows 10) and providing walk-through for new users. MDM solutions provide corporations with the ability to push corporate resources to secure devices, maintained by security focused policies. 
+                My name is Daniel Milholland (<a href="https://twitter.com/Milhound" class="contact-link">@Milhound</a>). I am currently employed at IBM as a MaaS360 - Technical Support Engineer. MaaS360 is a Mobile Device Management (MDM) service offered by IBM, we have multiple locations around the world. My duties include troubleshooting mobile devices (iOS/Android/macOS/Windows 10) and providing walk-through for new users. MDM solutions provide corporations with the ability to push corporate resources to secure devices, maintained by security focused policies. 
                 <br><br>
                 I have extensive knowledge of Android Enterprise (AFW) and Apple's DEP programs. Google's Android Enterprise is new, and constantly changing with MaaS360 we strive to keep up-to-date with all the latest releases. This creates an ever-evolving workflow for training and troubleshooting.
             </p>
